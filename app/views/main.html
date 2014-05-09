@@ -1,36 +1,68 @@
-<div class="header">
-  <ul class="nav nav-pills pull-right">
-    <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
-  </ul>
-  <h3 class="text-muted">earbuds</h3>
+<div class='landing-page-container'>
+  <h1 class='landing-page-header'>AUERAS</h1>
+  <h2 class='landing-page-sub-header'>Earbud Tips That Fit</h2>
+  <div class='next-to-product'></div>
+  <div class='product-description-div'>
+    <p class='product-description-p'>
+      You wouldn't try fitting a square peg into a round hole, so why wear in-ear headphones that don't fit?
+      <br><br>
+      Aueras ear bud tips are for those of us that value comfort when listening to our music. 
+    </p>
+  </div>
+  <div class='email-input-div'>
+    <input type='text' class='email-input' ng-model='emailForm' ng-click='emailForm = ""' ng-blur='checkForm()'>
+    <input type='submit' class='email-submit' value='Sign Up' ng-click='validateEmail()'>
+  </div>
+  <div class='how-div'>
+    <h2 class='how-header'>How Does It Work?</h2>
+    <ul class='steps-list'>
+      <li class='step-item'>1. Take a picture of both your ears and upload it using the Aueras app</li>
+      <div class='earsDiv'>
+        <div class='leftEar'></div>
+        <div class='rightEar'></div>
+      </div>
+      <li class='step-item'>2. Choose your in-ear headphone manufacturer</li>
+      <ul class='headphone-manufacturer-list'>
+        <li class='headphone-manufacturer-monster'></li>
+        <li class='headphone-manufacturer-bose'></li>
+        <li class='headphone-manufacturer-shure'></li>
+      </ul>
+      <li class='step-item'>3. Checkout</li>
+      <div class='checkout-img'></div>
+    </ul>
+  </div>
+  <div class='explanation-div'>
+    <div>We use sophisticated formulas to analyze your ears in combination with 3D printing techniques to create custom perfect-fit ear bud tips shipped right to your door.
+    </div>
+    <div class='explanation-process-div'>
+      <div class='explanation-process'>
+        <div class='explanation-img-photo'></div>
+        <br>
+        Photo Analysis
+      </div>
+      <div class='explanation-process'>
+        <div class='explanation-arrow-one'></div>
+        <br><br>
+      </div>
+      <div class='explanation-process'>
+        <div class='explanation-img-print'></div>
+        <br>
+        3D Printing
+      </div>
+      <div class='explanation-process'>
+        <div class='explanation-arrow-two'></div>
+        <br><br>
+      </div>
+      <div class='explanation-process'>
+        <div class='explanation-package'></div>
+        <br>
+        Delivery To Your Door
+      </div>
+    </div>
+  </div>
+  <footer class='footer'>
+    <div class='footer-social-links'>Social</div>
+    <div class='footer-contact-links'>Get In Touch</div>
+  </footer>
 </div>
 
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
-
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
-
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
-
-<div class="footer">
-  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-</div>

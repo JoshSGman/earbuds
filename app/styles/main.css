@@ -315,16 +315,29 @@ input:focus {
   display: inline-block;
   color: #404040;
   text-align: center;
-  width: 49%;
+  width: 100%;
   cursor: pointer;
+  opacity: 0.8;
 }
 
-.footer-contact-links {
-  display: inline-block;
-  color: #404040;
-  text-align: center;
-  width: 49%;
-  cursor: pointer;
+.facebook {
+  margin: 10px;
+  height: 30px;
+}
+
+.twitter {
+  margin: 10px;
+  height: 30px;
+}
+
+.instagram {
+  margin: 10px;
+  height: 30px;
+}
+
+.contact {
+  margin: 10px;
+  height: 30px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -485,7 +498,7 @@ input:focus {
   }
 
   .explanation-img-photo{
-
+    margin-bottom: 20px;
   }
 
   .explanation-arrow-one{
@@ -493,7 +506,7 @@ input:focus {
   }
 
   .explanation-img-print{
-
+    margin-bottom: 20px;
   }
 
   .explanation-arrow-two{
@@ -501,7 +514,7 @@ input:focus {
   }
 
   .explanation-package{
-
+    margin-bottom: 20px;
   }
 
 
@@ -515,8 +528,24 @@ input:focus {
 
   }
 
-  .footer-contact-links {
+  .facebook {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
+  .twitter {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .instagram {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .contact {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 

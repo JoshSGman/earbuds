@@ -9,7 +9,10 @@ module.exports.saveEmail = function(req, res){
   });
 
   email.save(function(err) {
-    if (err) { console.error('There was an error:', err); }
+    if (err) { 
+      console.error('There was an error:', err); 
+      res.send(500, err);
+    }
   });
 
   res.send(200);

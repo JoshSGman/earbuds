@@ -323,21 +323,25 @@ input:focus {
 .facebook {
   margin: 10px;
   height: 30px;
+  cursor: pointer;
 }
 
 .twitter {
   margin: 10px;
   height: 30px;
+  cursor: pointer;
 }
 
 .instagram {
   margin: 10px;
   height: 30px;
+  cursor: pointer;
 }
 
 .contact {
   margin: 10px;
   height: 30px;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 480px) {

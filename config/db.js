@@ -3,6 +3,7 @@
 var mongoose = require('mongoose');
 
 var mongoURL = process.env.MONGOHQ_URL || 'mongodb://:@127.0.0.1:/aueras';
+
 mongoose.connect(mongoURL);
 
 var db = mongoose.connection;

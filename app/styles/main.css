@@ -28,6 +28,14 @@ h3 {
 
 }
 
+input {
+
+}
+
+input:focus {
+  outline: 0;
+}
+
 .container {
   height: 100%;
 }
@@ -111,8 +119,13 @@ h3 {
   color: white;
 }
 
-.email-input:focus {
+.email-submit:focus {
   outline: 0;
+}
+
+.email-submit:hover {
+  background: white;
+  color: #404040;
 }
 
 .earsDiv {
@@ -243,6 +256,7 @@ h3 {
   display: inline-block;
   width: 18%;
   opacity: 0.8;
+  font-size: 9px;
 }
 
 .explanation-img-photo{
@@ -362,7 +376,7 @@ h3 {
   }
 
   .product-description-div {
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 25px;
   }
 
@@ -371,7 +385,7 @@ h3 {
   }
 
   .next-to-product {
-    height: 350px;
+    height: 380px;
     background-position: bottom;
   }
 
@@ -467,7 +481,7 @@ h3 {
   }
 
   .explanation-process {
-    
+    font-size: 14px;
   }
 
   .explanation-img-photo{

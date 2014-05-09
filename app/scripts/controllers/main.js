@@ -16,9 +16,7 @@ app.controller('MainController', function($scope, $http){
 
   var addEmail = function() {
     $http.post('/landing/email', {'email': $scope.emailForm})
-    .success(function(){
-      console.log('stored the email!');
-    })
+    .success(function(){})
     .error(function(err){
       console.error('There was an error in sending the email:', err);
     });

@@ -40,6 +40,47 @@ input:focus {
   height: 100%;
 }
 
+/* TEST-Page CSS */
+
+.card-container {
+  margin: auto;
+  width: 200px;
+  height: 260px;
+  position: relative;
+  -webkit-perspective: 800px;
+}
+
+.card-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+}
+
+.card-div figure {
+  color: white;
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-div.flipped {
+  -webkit-transform: rotateY( 180deg );
+}
+
+.front {
+  background: red;
+}
+
+.back {
+  background: blue;
+  -webkit-transform: rotateY( 180deg );
+}
+
 /* Landing Page */
 
 .landing-page-container {
@@ -83,7 +124,6 @@ input:focus {
   margin-top: 10px;
   width: 100%;
   height: 220px;
-  background: url('../images/waterBW.jpg');
   background-position: bottom;
   z-index: -1;
 }

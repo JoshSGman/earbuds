@@ -1,8 +1,9 @@
 'use strict';
 
-var app = angular.module('auerasApp');
-
 app.controller('MainController', function($scope, $http){
+  var elements = document.getElementsByClassName('next-to-product');
+  elements[0].style.backgroundImage = 'url("../images/waterBW.jpg")';
+
   $scope.emailForm = 'E-mail';
 
   $scope.checkForm = function() {
@@ -22,5 +23,4 @@ app.controller('MainController', function($scope, $http){
     });
     $scope.emailForm = 'Thank you for signing up!';
   };
-
 });

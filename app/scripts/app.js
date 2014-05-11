@@ -5,7 +5,9 @@ var app = angular.module('auerasApp', [
             'ngCookies',
             'ngResource',
             'ngSanitize',
-            'ngRoute'
+            'ngRoute',
+            'ngAnimate',
+            'fx.animations'
           ]);
 
 app.config(function ($stateProvider, $urlRouterProvider) {

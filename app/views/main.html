@@ -1,6 +1,7 @@
 <div class='landing-page-container'>
-  <h1 class='landing-page-header'>AUERAS</h1>
+  <h1 draggie class='landing-page-header'>AUERAS</h1>
   <h2 class='landing-page-sub-header'>Earbud Tips That Fit</h2>
+
   <div class='next-to-product'></div>
   <div class='product-description-div'>
     <p class='product-description-p'>
@@ -9,10 +10,13 @@
       Aueras ear bud tips are for those of us that value comfort when listening to our music. 
     </p>
   </div>
+
   <div class='email-input-div'>
     <input type='text' class='email-input' ng-model='emailForm' ng-click='emailForm = ""' ng-blur='checkForm()'>
     <input type='submit' class='email-submit' value='Sign Up' ng-click='validateEmail()'>
   </div>
+
+
   <div class='how-div'>
     <h2 class='how-header'>How Does It Work?</h2>
     <ul class='steps-list'>
@@ -27,10 +31,12 @@
         <li class='headphone-manufacturer-bose'></li>
         <li class='headphone-manufacturer-shure'></li>
       </ul>
-      <li class='step-item'>3. Checkout</li>
+      <li  class='step-item'>3. Checkout</li>
       <div class='checkout-img'></div>
     </ul>
   </div>
+
+
   <div class='explanation-div'>
     <div>We use sophisticated formulas to analyze your ears in combination with 3D printing techniques to create custom perfect-fit ear bud tips shipped right to your door.
     </div>
@@ -60,13 +66,16 @@
       </div>
     </div>
   </div>
+
+
   <footer class='footer'>
     <div class='footer-social-links'>
-      <a href='#'><img class='facebook' src='../../images/facebook_1.png'></a>
+      <a href='#'><img class='facebook' src='../../images/facebook_1.png' ui-sref='test'></a>
       <a href='#' ><img class='twitter' src='../../images/twitter.png'></a>
       <a href='#'><img class='instagram' src='../../images/instagram.png'></a>
       <a href='mailto:jsgoldberg90@gmail.com'><img class='contact' src='../../images/mail.png'></a>
       </div>
   </footer>
+
 </div>
 

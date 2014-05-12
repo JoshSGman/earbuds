@@ -15,6 +15,11 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         url : '/',
         templateUrl : 'views/main.html',
         controller: 'MainController'
+        // resolve : {
+        //   loadWater : function loadWater(preloadImage) {
+        //     return preloadImage.preloadWater(); 
+        //   }
+        // }
       });
 
     $urlRouterProvider.otherwise('/');

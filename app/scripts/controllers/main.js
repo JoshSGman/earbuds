@@ -1,8 +1,12 @@
 'use strict';
 
-app.controller('MainController', function($scope, $http){
-  var elements = document.getElementsByClassName('next-to-product');
-  elements[0].style.backgroundImage = 'url("../images/waterBW.jpg")';
+app.controller('MainController', function($scope, $http, preloadImage){
+
+  // var waterBG = preloadImage.waterBG;
+  // var container = document.getElementsByClassName('landing-page-container')[0];
+  // var desc = document.getElementsByClassName('product-description-div')[0];
+
+  // containerDiv.insertBefore(div1, div2);
 
   $scope.emailForm = 'E-mail';
 

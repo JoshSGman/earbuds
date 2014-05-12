@@ -124,6 +124,8 @@ input:focus {
   margin-top: 10px;
   width: 100%;
   height: 220px;
+  background: url('../images/waterBW.jpg');
+  background-repeat: none;
   background-position: bottom;
   z-index: -1;
 }
